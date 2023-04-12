@@ -1,1 +1,25 @@
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: grid;grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "aside content";
 
+
+}
+
+
+.content{
+    background-color: blue;
+    grid-area: content;
+
+}
+
+
+.aside{
+    background-color: brown;
+    grid-area: aside;
+
+}
