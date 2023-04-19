@@ -3,6 +3,7 @@
     padding: 0;
     width: 100%;
     height: 100vh;
+    
     display: grid;grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr;
     grid-template-areas: "aside content";
@@ -19,10 +20,79 @@
 
 
 .aside{
-    background-color: brown;
+    background-color: white;
+   text-align: center;
     grid-area: aside;
+    margin-top: 20px;
+   font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.image-profil img{
+    border-radius: 50px;
 
 }
+
+.aside-infos p{
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #ccc;
+    
+}
+
+
+.aside-menu{
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.aside-menu ul li a{
+    
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: bold;
+    justify-content: center;
+
+
+   
+   
+}
+
+
+.aside-menu ul li{
+    list-style: none;
+    border-top: 0.1px solid #ccc;
+    padding: 15px;
+    
+    
+    
+
+}
+.aside-menu ul li:hover{
+    background-color: #ccc;
+    opacity: 0.3;
+}
+
+
+.aside-icone{
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    
+}
+.twitter-icone, .facebook-icone, .google-icone{
+    background-color: #ccc;
+    padding: 10px;
+}
+
 
 @media screen and (max-width: 600px){
    .container{
