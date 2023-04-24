@@ -1,0 +1,49 @@
+.content{
+    background-image: url("/assets/css/images/laptop-1071781_1280.jpg");
+    
+}
+
+
+
+
+
+
+.content, .home-name, .home-infos table{
+    text-align: center;
+    margin: 0 auto;
+    margin-top:  100px;
+    text-align: justify;
+}
+
+.home-name {
+    text-align: center;
+}
+
+.home-name p{
+    font-size: 1.3rem;
+    margin: 10pxpx;
+}
+
+
+
+
+
+
+.home-name h2{
+    margin: 15px;
+    font-size: 3rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+
+
+.home-infos table{
+    margin-top: 0;
+}
+
+.home-infos table th{
+    
+    padding: 10px;
+    font-size: 1.2rem;
+}

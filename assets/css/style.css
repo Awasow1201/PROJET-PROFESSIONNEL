@@ -25,7 +25,7 @@ body{
 
 
 .content{
-    background-color: blue;
+    
     grid-area: content;
 
 }
@@ -61,9 +61,9 @@ body{
 }
 
 .aside-infos p{
-    
+    font-size: 1.2rem;
     font-weight: bold;
-    color: #ccc;
+    color:gray
     
 }
 
@@ -110,7 +110,7 @@ body{
 }
 .aside-menu ul li:hover{
     background-color: #ccc;
-    opacity: 0.3;
+    opacity: 0.4;
 }
 
 
@@ -130,20 +130,20 @@ body{
 
 @media screen and (max-width: 700px){
    .container{
-    
-    grid-template-columns: 1fr ;
-    grid-template-rows: 1fr 4fr;
+     grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 6fr;
     grid-template-areas: "aside" "content";
+
    }
 
    .aside-menu, .aside-icone, .aside-profil img, .aside-profil p{
     display: none
     
-    
-
-    
-   }
+  }
+  
 }
+
+
 
 @media screen  and (max-width: 700px){
     .aside .aside-profil .aside-infos h1{
